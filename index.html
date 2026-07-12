@@ -39,7 +39,6 @@
     overflow-x: hidden;
   }
 
-  /* Noise texture overlay */
   body::before {
     content: '';
     position: fixed;
@@ -50,7 +49,6 @@
     opacity: 0.4;
   }
 
-  /* Grid background */
   body::after {
     content: '';
     position: fixed;
@@ -63,7 +61,6 @@
     z-index: 0;
   }
 
-  /* ── NAV ── */
   nav {
     position: fixed;
     top: 0; left: 0; right: 0;
@@ -119,7 +116,6 @@
 
   .nav-cta:hover { background: var(--accent); color: var(--bg); }
 
-  /* ── HERO ── */
   #hero {
     position: relative;
     z-index: 1;
@@ -267,7 +263,6 @@
     50% { opacity: 1; transform: scale(1.05); }
   }
 
-  /* ── SECTION COMMON ── */
   section {
     position: relative;
     z-index: 1;
@@ -305,7 +300,6 @@
     z-index: 1;
   }
 
-  /* ── SKILLS ── */
   .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -377,7 +371,6 @@
     letter-spacing: 0.04em;
   }
 
-  /* ── PROJECTS ── */
   .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
@@ -471,7 +464,6 @@
     letter-spacing: 0.04em;
   }
 
-  /* ── EDUCATION ── */
   .edu-timeline {
     display: flex;
     flex-direction: column;
@@ -543,7 +535,6 @@
     color: var(--text2);
   }
 
-  /* ── CONTACT ── */
   #contact-section {
     background: var(--bg2);
     border-top: 1px solid var(--border);
@@ -601,7 +592,6 @@
     flex-shrink: 0;
   }
 
-  /* ── FORM ── */
   .contact-form {
     background: var(--card);
     border: 1px solid var(--border);
@@ -682,7 +672,6 @@
     letter-spacing: 0.05em;
   }
 
-  /* ── FOOTER ── */
   footer {
     position: relative;
     z-index: 1;
@@ -700,7 +689,6 @@
 
   footer span { color: var(--accent); }
 
-  /* ── ANIMATIONS ── */
   @keyframes fadeUp {
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
@@ -717,7 +705,6 @@
     transform: translateY(0);
   }
 
-  /* ── RESPONSIVE ── */
   @media (max-width: 768px) {
     nav { padding: 1rem 1.5rem; }
     .nav-links { display: none; }
@@ -856,6 +843,76 @@
         <span class="tech-badge">MySQL</span>
         <span class="tech-badge">HTML/CSS</span>
         <span class="tech-badge">NetBeans</span>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-header">
+        <div class="project-icon">🩸</div>
+        <div class="project-links">
+          <a href="https://github.com/nimesha1234455/badulla_blood_donation" target="_blank" rel="noopener" class="project-link" title="GitHub">&#60;/&#62;</a>
+        </div>
+      </div>
+      <div class="project-title">Badulla Blood Donation System</div>
+      <p class="project-desc">
+        A mobile application connecting blood donors with people in need, helping manage donor records, donation requests, and availability for the Badulla area.
+      </p>
+      <div class="project-tech">
+        <span class="tech-badge">Flutter</span>
+        <span class="tech-badge">Firebase</span>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-header">
+        <div class="project-icon">🎓</div>
+        <div class="project-links">
+          <a href="https://github.com/nimesha1234455/LMS-App" target="_blank" rel="noopener" class="project-link" title="GitHub">&#60;/&#62;</a>
+        </div>
+      </div>
+      <div class="project-title">LMS App</div>
+      <p class="project-desc">
+        A Learning Management System application that allows students to access course materials, view schedules, and track academic progress, with an admin side for managing courses and users.
+      </p>
+      <div class="project-tech">
+        <span class="tech-badge">Java</span>
+        <span class="tech-badge">SQLite</span>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-header">
+        <div class="project-icon">💼</div>
+        <div class="project-links">
+          <a href="https://github.com/nimesha1234455/job-cv-assistant" target="_blank" rel="noopener" class="project-link" title="GitHub">&#60;/&#62;</a>
+        </div>
+      </div>
+      <div class="project-title">Job & CV Assistant</div>
+      <p class="project-desc">
+        A mobile application that helps job seekers build professional CVs and manage job applications, streamlining the process of preparing and organizing career documents.
+      </p>
+      <div class="project-tech">
+        <span class="tech-badge">Flutter</span>
+        <span class="tech-badge">Firebase</span>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-header">
+        <div class="project-icon">📊</div>
+        <div class="project-links">
+          <a href="https://github.com/nimesha1234455/ProfessionalIMS" target="_blank" rel="noopener" class="project-link" title="GitHub">&#60;/&#62;</a>
+        </div>
+      </div>
+      <div class="project-title">Professional IMS</div>
+      <p class="project-desc">
+        A professional inventory management system web application for tracking stock, managing products, and handling admin-level operations with a clean, structured interface.
+      </p>
+      <div class="project-tech">
+        <span class="tech-badge">Java</span>
+        <span class="tech-badge">JSP</span>
+        <span class="tech-badge">Servlets</span>
+        <span class="tech-badge">MySQL</span>
       </div>
     </div>
 
